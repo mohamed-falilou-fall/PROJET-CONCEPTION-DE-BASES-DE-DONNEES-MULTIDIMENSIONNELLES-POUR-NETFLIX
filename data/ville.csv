@@ -1,0 +1,601 @@
+id_ville;code_vile;ville;id_pays
+2;A300D;Abha;82
+135;F525D;Dallas;103
+271;3BFA0;Kisumu;52
+405;79AC0;Pereira;24
+1;4D61B;A Corua (La Corua);87
+3;C2872;Abu Dhabi;101
+4;51475;Acua;60
+5;502D3;Adana;97
+6;28572;Addis Abeba;31
+7;53638;Aden;107
+8;076B3;Adoni;44
+9;B1917;Ahmadnagar;44
+10;A7ACE;Akishima;50
+11;CA0EB;Akron;103
+12;68083;al-Ayn;101
+13;7B0BC;al-Hawiya;82
+14;8D3D9;al-Manama;11
+15;6B393;al-Qadarif;89
+16;86538;al-Qatif;82
+17;E56B3;Alessandria;49
+18;C42E1;Allappuzha (Alleppey);44
+19;41C50;Allende;60
+20;55BA7;Almirante Brown;6
+21;2E6E3;Alvorada;15
+22;31F69;Ambattur;44
+23;C734E;Amersfoort;67
+24;33798;Amroha;44
+25;407E2;Angra dos Reis;15
+26;A1F1E;Anpolis;15
+27;B8EAE;Antofagasta;22
+28;85557;Aparecida de Goinia;15
+29;1608A;Apeldoorn;67
+30;026F0;Araatuba;15
+31;CEB8A;Arak;46
+32;6E102;Arecibo;77
+33;6EE67;Arlington;103
+34;0B52D;Ashdod;48
+35;6C2D4;Ashgabat;98
+36;EF320;Ashqelon;48
+37;A5A40;Asuncin;73
+38;CB645;Athenai;39
+39;60142;Atinsk;80
+40;A8C9F;Atlixco;60
+41;78650;Augusta-Richmond County;103
+42;5C287;Aurora;103
+43;011CF;Avellaneda;6
+44;BD8EE;Bag;15
+45;BDE2E;Baha Blanca;6
+46;7BC72;Baicheng;23
+47;C7FAA;Baiyin;23
+48;515D8;Baku;10
+49;6F64F;Balaiha;80
+50;75D79;Balikesir;97
+51;E3538;Balurghat;44
+52;C6367;Bamenda;19
+53;23E92;Bandar Seri Begawan;16
+54;6BA9D;Banjul;37
+55;2CBBA;Barcelona;104
+56;CDB3C;Basel;91
+57;1E91E;Bat Yam;48
+58;4C897;Batman;97
+59;08508;Batna;2
+60;D307F;Battambang;18
+61;FB8FA;Baybay;75
+62;092A3;Bayugan;75
+63;E7E0C;Bchar;2
+64;51884;Beira;63
+65;05570;Bellevue;103
+66;886EC;Belm;15
+67;26EB4;Benguela;4
+68;61009;Beni-Mellal;62
+69;15BC2;Benin City;69
+70;18DDE;Bergamo;49
+71;FF481;Berhampore (Baharampur);44
+72;039DE;Bern;91
+73;268B0;Bhavnagar;44
+74;C0A17;Bhilwara;44
+75;22F31;Bhimavaram;44
+76;28B3D;Bhopal;44
+77;2555B;Bhusawal;44
+78;91FFA;Bijapur;44
+79;82DBE;Bilbays;29
+80;87EF5;Binzhou;23
+81;436FC;Birgunj;66
+82;AA1F1;Bislig;75
+83;14A46;Blumenau;15
+84;F5733;Boa Vista;15
+85;03DA1;Boksburg;85
+86;A3DEF;Botosani;78
+87;39A67;Botshabelo;85
+88;C29EA;Bradford;102
+89;6D7CE;Braslia;15
+90;DDF16;Bratislava;84
+91;DA61F;Brescia;49
+92;D5F6F;Brest;34
+93;7CE12;Brindisi;49
+94;F20C7;Brockton;103
+95;E35B2;Bucuresti;78
+96;18966;Buenaventura;24
+97;6B929;Bydgoszcz;76
+98;EE72D;Cabuyao;75
+99;61FDB;Callao;74
+100;81F73;Cam Ranh;105
+101;A8FA2;Cape Coral;103
+102;C3AAC;Caracas;104
+103;ED13A;Carmen;60
+104;0222B;Cavite;75
+105;D985D;Cayenne;35
+106;8B171;Celaya;60
+107;098BB;Chandrapur;44
+108;BE2E8;Changhwa;92
+109;23285;Changzhou;23
+110;618C3;Chapra;44
+111;A4E90;Charlotte Amalie;106
+112;3AC8E;Chatsworth;85
+113;4BE32;Cheju;86
+114;B933A;Chiayi;92
+115;31D4A;Chisinau;61
+116;70B14;Chungho;92
+117;B04B7;Cianjur;45
+118;29BA3;Ciomas;45
+119;D4499;Ciparay;45
+120;99479;Citrus Heights;103
+121;31B96;Citt del Vaticano;41
+122;9DCC2;Ciudad del Este;73
+123;5E2EF;Clarksville;103
+124;32B17;Coacalco de Berriozbal;60
+125;E9118;Coatzacoalcos;60
+126;336A0;Compton;103
+127;23149;Coquimbo;22
+128;A6710;Crdoba;6
+129;5CFFD;Cuauhtmoc;60
+130;D52B9;Cuautla;60
+131;9C9B2;Cuernavaca;60
+132;E8D73;Cuman;104
+133;06213;Czestochowa;76
+134;123F7;Dadu;72
+136;DB944;Datong;23
+137;20F79;Daugavpils;54
+138;CF0AA;Davao;75
+139;D1E50;Daxian;23
+140;A14B2;Dayton;103
+141;EA9D4;Deba Habe;69
+142;B759C;Denizli;97
+143;BD979;Dhaka;12
+144;CDC18;Dhule (Dhulia);44
+145;65E42;Dongying;23
+146;449D7;Donostia-San Sebastin;87
+147;A069A;Dos Quebradas;24
+148;A7712;Duisburg;38
+149;E97CC;Dundee;102
+150;2FFF8;Dzerzinsk;80
+151;12D9A;Ede;67
+152;70B86;Effon-Alaiye;69
+153;C465B;El Alto;14
+154;C98FB;El Fuerte;60
+155;E9947;El Monte;103
+156;A5893;Elista;80
+157;AFEB1;Emeishan;23
+158;07F85;Emmen;67
+159;11CF0;Enshi;23
+160;AF41C;Erlangen;38
+161;830D1;Escobar;6
+162;972F1;Esfahan;46
+163;376A2;Eskisehir;97
+164;86B6D;Etawah;44
+165;9B44A;Ezeiza;6
+166;B6AE3;Ezhou;23
+167;4E70C;Faaa;36
+168;6C413;Fengshan;92
+169;D6A96;Firozabad;44
+170;8E5FA;Florencia;24
+171;DFD8D;Fontana;103
+172;49782;Fukuyama;50
+173;A2C7F;Funafuti;99
+174;DD513;Fuyu;23
+175;E1BBA;Fuzhou;23
+176;340B7;Gandhinagar;44
+177;582C0;Garden Grove;103
+178;FA92B;Garland;103
+179;F04AC;Gatineau;20
+180;20D9D;Gaziantep;97
+181;4BE95;Gijn;87
+182;3F614;Gingoog;75
+183;D0B05;Goinia;15
+184;B0027;Gorontalo;45
+185;BC3EE;Grand Prairie;103
+186;21F39;Graz;9
+187;D47F9;Greensboro;103
+188;E8DE7;Guadalajara;60
+189;BF01D;Guaruj;15
+190;E1B88;guas Lindas de Gois;15
+191;FF84A;Gulbarga;44
+192;08169;Hagonoy;75
+193;EBE16;Haining;23
+194;AEBBB;Haiphong;105
+195;6E37A;Haldia;44
+196;B4973;Halifax;20
+197;60403;Halisahar;44
+198;070ED;Halle/Saale;38
+199;49BC6;Hami;23
+200;E6D42;Hamilton;68
+201;DF2C0;Hanoi;105
+202;FDBA3;Hidalgo;60
+203;2B40B;Higashiosaka;50
+204;08658;Hino;50
+205;B61F5;Hiroshima;50
+206;9AB1F;Hodeida;107
+207;D868D;Hohhot;23
+208;82CCD;Hoshiarpur;44
+209;DDBF1;Hsichuh;92
+210;093D0;Huaian;23
+211;CF923;Hubli-Dharwad;44
+212;EEEAC;Huejutla de Reyes;60
+213;9CDAD;Huixquilucan;60
+214;79180;Hunuco;74
+215;11C20;Ibirit;15
+216;BE45B;Idfu;29
+217;00FBF;Ife;69
+218;516DB;Ikerre;69
+219;12629;Iligan;75
+220;0708C;Ilorin;69
+221;F5FB4;Imus;75
+222;7B389;Inegl;97
+223;7E216;Ipoh;59
+224;287BB;Isesaki;50
+225;0297A;Ivanovo;80
+226;6EF33;Iwaki;50
+227;3CD37;Iwakuni;50
+228;EFA10;Iwatsuki;50
+229;32E37;Izumisano;50
+230;775C5;Jaffna;88
+231;9FBE1;Jaipur;44
+232;D4F51;Jakarta;45
+233;36AE6;Jalib al-Shuyukh;53
+234;C88CD;Jamalpur;12
+235;61C2D;Jaroslavl;80
+236;88FBB;Jastrzebie-Zdrj;76
+237;1B206;Jedda;82
+238;7FB87;Jelets;80
+239;4C227;Jhansi;44
+240;964E6;Jinchang;23
+241;F791A;Jining;23
+242;F89AA;Jinzhou;23
+243;B840A;Jodhpur;44
+244;9EEBF;Johannesburg;85
+245;2B8E6;Joliet;103
+246;5FFAC;Jos Azueta;60
+247;51E36;Juazeiro do Norte;15
+248;A0EC9;Juiz de Fora;15
+249;7E91D;Junan;23
+250;CCA91;Jurez;60
+251;13408;Kabul;1
+252;A67AB;Kaduna;69
+253;83B52;Kakamigahara;50
+254;5C635;Kaliningrad;80
+255;D2913;Kalisz;76
+256;FB718;Kamakura;50
+257;EC037;Kamarhati;44
+258;25807;Kamjanets-Podilskyi;100
+259;1B3BC;Kamyin;80
+260;34B12;Kanazawa;50
+261;6FC5D;Kanchrapara;44
+262;84710;Kansas City;103
+263;0C5AC;Karnal;44
+264;1A670;Katihar;44
+265;5FF81;Kermanshah;46
+266;43C17;Kilis;97
+267;A8914;Kimberley;85
+268;32FFF;Kimchon;86
+269;64DEB;Kingstown;81
+270;9CF68;Kirovo-Tepetsk;80
+272;6C14D;Kitwe;109
+273;9170D;Klerksdorp;85
+274;B823E;Kolpino;80
+275;05AE8;Konotop;100
+276;FB446;Koriyama;50
+277;3E51E;Korla;23
+278;39346;Korolev;80
+279;8BDC2;Kowloon and New Kowloon;42
+280;ED9B8;Kragujevac;108
+281;A764F;Ktahya;97
+282;88300;Kuching;59
+283;B852E;Kumbakonam;44
+284;02FD6;Kurashiki;50
+285;29414;Kurgan;80
+286;3D7C9;Kursk;80
+287;24D3F;Kuwana;50
+288;BB89E;La Paz;60
+289;91D98;La Plata;6
+290;F728E;La Romana;27
+291;E82F4;Laiwu;23
+292;0ACB5;Lancaster;103
+293;E0442;Laohekou;23
+294;CC1B9;Lapu-Lapu;75
+295;52C36;Laredo;103
+296;4F243;Lausanne;91
+297;2C51D;Le Mans;34
+298;D3760;Lengshuijiang;23
+299;675FD;Leshan;23
+300;B7733;Lethbridge;20
+301;30FA8;Lhokseumawe;45
+302;D8274;Liaocheng;23
+303;A4BAA;Liepaja;54
+304;DAE21;Lilongwe;58
+305;E1798;Lima;74
+306;7D5C6;Lincoln;103
+307;20469;Linz;9
+308;2F9BF;Lipetsk;80
+309;C5506;Livorno;49
+310;0F357;Ljubertsy;80
+311;7297C;Loja;28
+312;D8130;London;102
+313;E1ACA;London;20
+314;4FD93;Lublin;76
+315;996B2;Lubumbashi;25
+316;7DB90;Lungtan;92
+317;8161A;Luzinia;15
+318;485C5;Madiun;45
+319;87183;Mahajanga;57
+320;7FACE;Maikop;80
+321;AC117;Malm;90
+322;81F85;Manchester;103
+323;C71C1;Mandaluyong;75
+324;02A0E;Mandi Bahauddin;72
+325;50E6B;Mannheim;38
+326;5640B;Maracabo;104
+327;5198C;Mardan;72
+328;45734;Maring;15
+329;470A3;Masqat;71
+330;579D1;Matamoros;60
+331;02D9B;Matsue;50
+332;0038C;Meixian;23
+333;CFD34;Memphis;103
+334;FCDFF;Merlo;6
+335;8E10B;Mexicali;60
+336;12B64;Miraj;44
+337;B625D;Mit Ghamr;29
+338;D4E8F;Miyakonojo;50
+339;62701;Mogiljov;13
+340;A9CAC;Molodetno;13
+341;0317B;Monclova;60
+342;43F63;Monywa;64
+343;DAECB;Moscow;80
+344;9E34A;Mosul;47
+345;DC309;Mukateve;100
+346;103F7;Munger (Monghyr);44
+347;C727B;Mwanza;93
+348;4A535;Mwene-Ditu;25
+349;0EBCF;Myingyan;64
+350;DA9CF;Mysore;44
+351;C3601;Naala-Porto;63
+352;DF03D;Nabereznyje Telny;80
+353;67E61;Nador;62
+354;609A9;Nagaon;44
+355;C90E2;Nagareyama;50
+356;230E5;Najafabad;46
+357;EA8DA;Naju;86
+358;44784;Nakhon Sawan;94
+359;A9EB8;Nam Dinh;105
+360;2D7F5;Namibe;4
+361;1FC9B;Nantou;92
+362;DC12A;Nanyang;23
+363;B3A79;NDjamna;21
+364;AED37;Newcastle;85
+365;16F79;Nezahualcyotl;60
+366;EEABE;Nha Trang;105
+367;5306D;Niznekamsk;80
+368;98505;Novi Sad;108
+369;D104D;Novoterkassk;80
+370;14C2F;Nukualofa;95
+371;4DCD7;Nuuk;40
+372;704BE;Nyeri;52
+373;63DE6;Ocumare del Tuy;104
+374;3B6CB;Ogbomosho;69
+375;6F294;Okara;72
+376;1EF8C;Okayama;50
+377;333D8;Okinawa;50
+378;6DD9D;Olomouc;26
+379;35A51;Omdurman;89
+380;E87C1;Omiya;50
+381;233C4;Ondo;69
+382;5A3ED;Onomichi;50
+383;3CA35;Oshawa;20
+384;6F2D1;Osmaniye;97
+385;C9456;ostka;100
+386;EDE38;Otsu;50
+387;58603;Oulu;33
+388;2290B;Ourense (Orense);87
+389;FAB5C;Owo;69
+390;6F2F3;Oyo;69
+391;3D07C;Ozamis;75
+392;8B631;Paarl;85
+393;76A4C;Pachuca de Soto;60
+394;2FAFA;Pak Kret;94
+395;8772F;Palghat (Palakkad);44
+396;3774D;Pangkal Pinang;45
+397;BD775;Papeete;36
+398;EA729;Parbhani;44
+399;1523E;Pathankot;44
+400;CF669;Patiala;44
+401;7C5EF;Patras;39
+402;FC78F;Pavlodar;51
+403;28059;Pemalang;45
+404;A189F;Peoria;103
+406;56CAE;Phnom Penh;18
+407;967B9;Pingxiang;23
+408;85EB3;Pjatigorsk;80
+409;7AD91;Plock;76
+410;26007;Po;15
+411;69B8E;Ponce;77
+412;0019D;Pontianak;45
+413;502DA;Poos de Caldas;15
+414;2572E;Portoviejo;28
+415;86D56;Probolinggo;45
+416;B4314;Pudukkottai;44
+417;FC88E;Pune;44
+418;27D21;Purnea (Purnia);44
+419;A805C;Purwakarta;45
+420;DD609;Pyongyang;70
+421;8AE84;Qalyub;29
+422;1FC29;Qinhuangdao;23
+423;D7EC2;Qomsheh;46
+424;42B16;Quilmes;6
+425;5FEF4;Rae Bareli;44
+426;DF4ED;Rajkot;44
+427;2AA75;Rampur;44
+428;50D58;Rancagua;22
+429;5BCDA;Ranchi;44
+430;D74F4;Richmond Hill;20
+431;13F7B;Rio Claro;15
+432;F3C62;Rizhao;23
+433;F4139;Roanoke;103
+434;328C8;Robamba;28
+435;DF6B8;Rockford;103
+436;CD927;Ruse;17
+437;650EB;Rustenburg;85
+438;4C042;s-Hertogenbosch;67
+439;AFFC8;Saarbrcken;38
+440;43FEA;Sagamihara;50
+441;2B786;Saint Louis;103
+442;A055B;Saint-Denis;79
+443;EE26C;Sal;62
+444;6ACF9;Salala;71
+445;9D251;Salamanca;60
+446;1AA68;Salinas;103
+447;CBFBC;Salzburg;9
+448;47BC4;Sambhal;44
+449;1D67D;San Bernardino;103
+450;F8327;San Felipe de Puerto Plata;27
+451;190FA;San Felipe del Progreso;60
+452;7E80D;San Juan Bautista Tuxtepec;60
+453;D1007;San Lorenzo;73
+454;53B38;San Miguel de Tucumn;6
+455;6846E;Sanaa;107
+456;E4DF4;Santa Brbara dOeste;15
+457;72A41;Santa F;6
+458;9FD56;Santa Rosa;75
+459;D8E6F;Santiago de Compostela;87
+460;A6114;Santiago de los Caballeros;27
+461;0E77D;Santo Andr;15
+462;0AD06;Sanya;23
+463;8300F;Sasebo;50
+464;8F36E;Satna;44
+465;5F864;Sawhaj;29
+466;B7339;Serpuhov;80
+467;ED659;Shahr-e Kord;46
+468;74E0F;Shanwei;23
+469;AA6A0;Shaoguan;23
+470;F61CD;Sharja;101
+471;F5703;Shenzhen;23
+472;08D5D;Shikarpur;72
+473;A2CD1;Shimoga;44
+474;2E38C;Shimonoseki;50
+475;8C280;Shivapuri;44
+476;72861;Shubra al-Khayma;29
+477;25121;Siegen;38
+478;4B2E7;Siliguri (Shiliguri);44
+479;5BC2F;Simferopol;100
+480;4C780;Sincelejo;24
+481;192C7;Sirjan;46
+482;3C7AE;Sivas;97
+483;EA3C1;Skikda;2
+484;A796E;Smolensk;80
+485;B3AE5;So Bernardo do Campo;15
+486;4EE89;So Leopoldo;15
+487;362D7;Sogamoso;24
+488;9717A;Sokoto;69
+489;9A942;Songkhla;94
+490;105A7;Sorocaba;15
+491;854AF;Soshanguve;85
+492;16FAF;Sousse;96
+493;A3AD6;South Hill;5
+494;3B337;Southampton;102
+495;18842;Southend-on-Sea;102
+496;7EC97;Southport;102
+497;EC737;Springs;85
+498;F316B;Stara Zagora;17
+499;7A067;Sterling Heights;103
+500;2C953;Stockport;102
+501;DA58A;Sucre;14
+502;2A89F;Suihua;23
+503;839ED;Sullana;74
+504;4D1CD;Sultanbeyli;97
+505;62AED;Sumqayit;10
+506;8D695;Sumy;100
+507;105F6;Sungai Petani;59
+508;35C83;Sunnyvale;103
+509;813D1;Surakarta;45
+510;C187A;Syktyvkar;80
+511;3D714;Syrakusa;49
+512;EB2BB;Szkesfehrvr;43
+513;1A269;Tabora;93
+514;D8CD3;Tabriz;46
+515;08B1F;Tabuk;82
+516;F4A11;Tafuna;3
+517;00B21;Taguig;75
+518;DF09E;Taizz;107
+519;41903;Talavera;75
+520;86C66;Tallahassee;103
+521;E6EFE;Tama;50
+522;46218;Tambaram;44
+523;BD5D2;Tanauan;75
+524;06B2B;Tandil;6
+525;FFC6C;Tangail;12
+526;B7E91;Tanshui;92
+527;8EE04;Tanza;75
+528;46A76;Tarlac;75
+529;23464;Tarsus;97
+530;32F1A;Tartu;30
+531;51A41;Teboksary;80
+532;7677C;Tegal;45
+533;FBED4;Tel Aviv-Jaffa;48
+534;C1406;Tete;63
+535;DCEF6;Tianjin;23
+536;1C677;Tiefa;23
+537;9DA20;Tieli;23
+538;1DBC8;Tokat;97
+539;53B21;Tonghae;86
+540;BD6FF;Tongliao;23
+541;5C5C0;Torren;60
+542;38211;Touliu;92
+543;661E0;Toulon;34
+544;CE507;Toulouse;34
+545;65435;Trshavn;32
+546;5B8C0;Tsaotun;92
+547;232B7;Tsuyama;50
+548;5AD28;Tuguegarao;75
+549;787FA;Tychy;76
+550;55E3C;Udaipur;44
+551;F656B;Udine;49
+552;764F9;Ueda;50
+553;4D3D5;Uijongbu;86
+554;DACD3;Uluberia;44
+555;13B17;Urawa;50
+556;E116C;Uruapan;60
+557;931BE;Usak;97
+558;AC3D2;Usolje-Sibirskoje;80
+559;98D85;Uttarpara-Kotrung;44
+560;FCB19;Vaduz;55
+561;C2EA7;Valencia;104
+562;6F6C3;Valle de la Pascua;104
+563;D0994;Valle de Santiago;60
+564;2A06E;Valparai;44
+565;B2018;Vancouver;20
+566;939F9;Varanasi (Benares);44
+567;D44DD;Vicente Lpez;6
+568;EEB83;Vijayawada;44
+569;D1277;Vila Velha;15
+570;904AE;Vilnius;56
+571;F7FBF;Vinh;105
+572;4BBFA;Vitria de Santo Anto;15
+573;8143C;Warren;103
+574;4394D;Weifang;23
+575;A5F59;Witten;38
+576;95754;Woodridge;8
+577;4836D;Wroclaw;76
+578;E9F6D;Xiangfan;23
+579;B2A22;Xiangtan;23
+580;F21A8;Xintai;23
+581;207C9;Xinxiang;23
+582;8BAF2;Yamuna Nagar;44
+583;FCC4B;Yangor;65
+584;0B62D;Yantai;23
+585;C1B9E;Yaound;19
+586;229E1;Yerevan;7
+587;FE625;Yinchuan;23
+588;685B2;Yingkou;23
+589;9074F;York;102
+590;3AC97;Yuncheng;23
+591;9BB47;Yuzhou;23
+592;328DE;Zalantun;23
+593;B3A5B;Zanzibar;93
+594;D2459;Zaoyang;23
+595;338D0;Zapopan;60
+596;2C43D;Zaria;69
+597;6B47E;Zeleznogorsk;80
+598;3F9B7;Zhezqazghan;51
+599;E7982;Zhoushan;23
+600;68F9E;Ziguinchor;83
