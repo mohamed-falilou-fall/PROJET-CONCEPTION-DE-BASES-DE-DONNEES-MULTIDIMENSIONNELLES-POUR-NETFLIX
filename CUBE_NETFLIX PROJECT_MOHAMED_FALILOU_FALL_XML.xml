@@ -1,0 +1,94 @@
+<Schema name="NETFLIX PROJECT ">
+  <Cube name="CUBE NETFLIX PROJECT " visible="true" cache="true" enabled="true">
+    <Table name="faits_location" schema="dwhnetflix">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="LOCATION">
+      <Hierarchy name="faits_location" visible="true" hasAll="true" primaryKey="id_Location " primaryKeyTable="faits_location">
+        <Level name="Identifiant Location " visible="true" table="faits_location" column="id_location" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Client" visible="true" table="faits_location" column="id_client" ordinalColumn="id_client" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Contenu" visible="true" table="faits_location" column="id_contenu" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Geographique" visible="true" table="faits_location" column="id_geographie" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Temps" visible="true" table="faits_location" column="id_temps" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Date retour Location " visible="true" table="faits_location" column="date_retour" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Montant de la Location" visible="true" table="faits_location" column="montant" nameColumn="montant" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="CLIENT ">
+      <Hierarchy name="dimension_client" visible="true" hasAll="true" primaryKey="id_client" primaryKeyTable="dim_client">
+        <Level name="Identifiant Client " visible="true" table="dim_client" column="id_client" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Code Client" visible="true" table="dim_client" column="code_client" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Ville" visible="true" table="dim_client" column="id_ville" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="CONTENU">
+      <Hierarchy name="dimension_contenu" visible="true" hasAll="true" primaryKey="id_contenu" primaryKeyTable="dim_contenu">
+        <Level name="Identifiant Contenu" visible="true" table="dim_contenu" column="id_contenu" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Categorie Film" visible="true" table="dim_contenu" column="id_categorie_film" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Langue Film" visible="true" table="dim_contenu" column="id_langue_film" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Acteur Principal " visible="true" table="dim_contenu" column="acteur_principal" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="GEOGRAPHIE">
+      <Hierarchy name="dimension_geographie" visible="true" hasAll="true" primaryKey="id_ville" primaryKeyTable="dim_geographie">
+        <Level name="Identifiant Ville" visible="true" table="dim_geographie" column="id_ville" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Nom Ville" visible="true" table="dim_geographie" column="ville" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Identifiant Pays" visible="true" table="dim_geographie" column="id_pays" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Nom Pays" visible="true" table="dim_geographie" column="pays" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Code Pays" visible="true" table="dim_geographie" column="code_pays" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="TEMPS">
+      <Hierarchy name="dimension_temps" visible="true" hasAll="true" primaryKey="id_temps" primaryKeyTable="dim_temps">
+        <Level name="Identifiant Temporel" visible="true" table="dim_temps" column="id_temps" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Date Location" visible="true" table="dim_temps" column="date_location" type="Date" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Annee" visible="true" table="dim_temps" column="annee" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Mois" visible="true" table="dim_temps" column="mois" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Jour" visible="true" table="dim_temps" column="jour" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Trimestre" visible="true" table="dim_temps" column="trimestre" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="MONTANT" column="montant" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="NOMBRE DE LOCATIONS" column="id_location" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="DUREE DES LOCATIONS EN JOURS " column="id_location" datatype="Numeric" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="REVENUS MENSUELS" column="montant" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="TOTAL UTILISATEURS DEBUT ANNEE" column="id_client" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="UTILISATEURS RETENUS FIN ANNEE" column="id_client" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="TAUX DE RETENTION" column="id_client" aggregator="avg" visible="true">
+    </Measure>
+    <Measure name="MONTANT TOTAL" column="montant" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="NOMBRE TOTAL LOCATIONS" column="id_location" aggregator="count" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
